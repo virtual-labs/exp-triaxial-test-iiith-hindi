@@ -1,0 +1,56 @@
+{
+	"version": 2.0,
+	"questions": [
+		{
+			"question": "1. In triaxial compression test on a soil specimen, the intermediate principal stress is equal to ____.",
+			"answers": {
+				"a": "Major principal stress",
+				"b": "Minor principal stress",
+				"c": "Both a & b",
+				"d": "None of the above"
+			},
+			"explanations": {
+				"a": "In triaxial test, the major principal stress (σ<sub>1</sub>) is applied in the vertical direction and the other two principal stresses σ<sub>2</sub> and σ<sub>3</sub> are applied in the horizontal direction by the fluid pressure around the specimen.",
+				"b": "In triaxial test, the major principal stress (σ<sub>1</sub>) is applied in the vertical direction and the other two principal stresses σ<sub>2</sub> and σ<sub>3</sub> are applied in the horizontal direction by the fluid pressure around the specimen.",
+				"c": "In triaxial test, the major principal stress (σ<sub>1</sub>) is applied in the vertical direction and the other two principal stresses σ<sub>2</sub> and σ<sub>3</sub> are applied in the horizontal direction by the fluid pressure around the specimen.",
+				"d": "One of the other options does contain the right answer."
+			},
+			"difficulty": "beginner",
+			"correctAnswer": "b"
+		},
+		{
+			"question": "2. The deviator stress σ<sub>d</sub> is given by ____. ",
+			"answers": {
+				"a": "σ<sub>d</sub> = σ<sub>1</sub> + σ",
+				"b": "σ<sub>d</sub> = σ<sub>3</sub> – σ<sub>1</sub>",
+				"c": "σ<sub>d</sub> = Additional axial load / A<sub>2</sub>",
+				"d": "σ<sub>d</sub> = σ<sub>1</sub> – σ<sub>3</sub>"
+			},
+			"explanations": {
+				"a": "The deviator stress (σ<sub>d</sub>) is given as the ratio of additional axial load to the area A<sub>2</sub> at failure or at any stage of the test.",
+				"b": "The deviator stress (σ<sub>d</sub>) is given as the ratio of additional axial load to the area A<sub>2</sub> at failure or at any stage of the test.",
+				"c": "The deviator stress (σ<sub>d</sub>) is given as the ratio of additional axial load to the area A<sub>2</sub> at failure or at any stage of the test.",
+				"d": "The deviator stress (σ<sub>d</sub>) is given as the ratio of additional axial load to the area A<sub>2</sub> at failure or at any stage of the test."
+			},
+			"difficulty": "beginner",
+			"correctAnswer": "c"
+		},
+		{
+			"question": "3. When drainage is allowed during the first stage only and not during the second stage, the test is known as ____.",
+			"answers": {
+				"a": "Consolidated Drained (CD) test",
+				"b": "Consolidated Undrained (CU) test",
+				"c": "Unconfined Compression (UC) test",
+				"d": "Unconsolidated Undrained (UU) test"
+			},
+			"explanations": {
+				"a": "In a consolidated drained test, the sample is consolidated and sheared in compression slowly to allow the pore pressures built up by the shearing to dissipate. The rate of axial deformation is kept constant, i.e, strain is controlled. The idea is that the test allows the sample and the pore pressures to fully consolidate (i.e, adjust) to the surrounding stresses. The test may take a long time to allow the sample to adjust, in particular low permeability samples need a long time to drain and adjust strain to stress levels.",
+				"b": "In a consolidated undrained test the sample is not allowed to drain. The shear characteristics are measured under undrained conditions and the sample is assumed to be fully saturated. Measuring the pore pressures in the sample (sometimes called CUpp) allows approximating the consolidated-drained strength.",
+				"c": "Unconfined Compressive Strength (UCS) stands for the maximum axial compressive stress that a specimen can bear under zero confining stress.",
+				"d": "For the UU test, the specimens (assumed to be saturated prior to test) are subjected to a confining fluid pressure in a triaxial chamber. In this test, the loads are applied quickly, and the sample is not allowed to consolidate during the test. The sample is compressed at a constant rate (strain-controlled)."
+			},
+			"difficulty": "beginner",
+			"correctAnswer": "b"
+		}
+	]
+}

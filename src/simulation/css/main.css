@@ -1,0 +1,47 @@
+.page {
+	overflow-x: scroll;
+}
+
+.v-canvas-container {
+	width: 100%;
+	height: 100%;
+}
+
+.v-datalist-container {
+	height: 100%;
+}
+
+.graph {
+	display: none;
+	min-width: 100%;
+}
+
+.plot {
+	display: inline-block;
+}
+
+.apparatus {
+	order: 1;
+}
+
+.simulation {
+	order: 2;
+}
+
+.observations {
+	order: 3;
+}
+
+@media screen and (max-width: 1023px) {
+	.apparatus {
+		order: 1;
+	}
+
+	.simulation {
+		order: 3;
+	}
+
+	.observations {
+		order: 2;
+	}
+}

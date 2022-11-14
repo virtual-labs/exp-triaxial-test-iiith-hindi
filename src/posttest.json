@@ -1,0 +1,36 @@
+{
+	"version": 2.0,
+	"questions": [
+		{
+			"question": "1. A clay soil sample is tested in a triaxial apparatus in consolidated drained conditions at a cell pressure of 100 kN/m<sup>2</sup>. What will be the pore water pressure at a deviator stress of 40 kN/m<sup>2</sup>? ",
+			"answers": {
+				"a": "0 kN/m<sup>2</sup>",
+				"b": "20 kN/m<sup>2</sup>",
+				"c": "40 kN/m<sup>2</sup>",
+				"d": "60 kN/m<sup>2</sup>"
+			},
+			"explanations": {
+				"a": "In consolidated and drained conditions pore pressure is zero."
+			},
+			"difficulty": "advanced",
+			"correctAnswer": "a"
+		},
+		{
+			"question": "2. A conventional drained triaxial compression test was conducted on a normally consolidated clay sample under an effective confining pressure (σ<sub>3</sub>) of 200 kPa. The deviator stress (σ<sub>d</sub>) at failure was found to be 400 kPa. An identical specimen of the same clay sample is isotropically consolidated to a confining pressure (σ<sub>3</sub>) of 200 kPa and subjected to standard undrained triaxial compression test. If the deviator stress at failure (σ<sub>d</sub>') is 150 kPa, the pore pressure developed in kPa is ____.",
+			"answers": {
+				"a": "0",
+				"b": "1",
+				"c": "1.25",
+				"d": "1.5"
+			},
+			"explanations": {
+				"a": "In both consolidated drained (CD) test as well as consolidated undrained (CU) test, c = 0. We first obtain σ<sub>1</sub> as σ<sub>d</sub> + σ<sub>3</sub>. Then we obtain Φ from the formula: σ<sub>1</sub> = σ<sub>3</sub> * tan<sup>2</sup> (45 + Φ / 2) + 2 * c * tan (45 + Φ / 2). Next we obtain the pore pressure U by substituting σ<sub>1</sub>' = σ<sub>3</sub> + σ<sub>d</sub>' - U and σ<sub>3</sub>' = σ<sub>3</sub> - U in the formula: σ<sub>1</sub>' = σ<sub>3</sub>' * tan<sup>2</sup> (45 + Φ / 2) + 2 * c * tan (45 + Φ / 2).",
+				"b": "In both consolidated drained (CD) test as well as consolidated undrained (CU) test, c = 0. We first obtain σ<sub>1</sub> as σ<sub>d</sub> + σ<sub>3</sub>. Then we obtain Φ from the formula: σ<sub>1</sub> = σ<sub>3</sub> * tan<sup>2</sup> (45 + Φ / 2) + 2 * c * tan (45 + Φ / 2). Next we obtain the pore pressure U by substituting σ<sub>1</sub>' = σ<sub>3</sub> + σ<sub>d</sub>' - U and σ<sub>3</sub>' = σ<sub>3</sub> - U in the formula: σ<sub>1</sub>' = σ<sub>3</sub>' * tan<sup>2</sup> (45 + Φ / 2) + 2 * c * tan (45 + Φ / 2).",
+				"c": "In both consolidated drained (CD) test as well as consolidated undrained (CU) test, c = 0. We first obtain σ<sub>1</sub> as σ<sub>d</sub> + σ<sub>3</sub>. Then we obtain Φ from the formula: σ<sub>1</sub> = σ<sub>3</sub> * tan<sup>2</sup> (45 + Φ / 2) + 2 * c * tan (45 + Φ / 2). Next we obtain the pore pressure U by substituting σ<sub>1</sub>' = σ<sub>3</sub> + σ<sub>d</sub>' - U and σ<sub>3</sub>' = σ<sub>3</sub> - U in the formula: σ<sub>1</sub>' = σ<sub>3</sub>' * tan<sup>2</sup> (45 + Φ / 2) + 2 * c * tan (45 + Φ / 2).",
+				"d": "In both consolidated drained (CD) test as well as consolidated undrained (CU) test, c = 0. We first obtain σ<sub>1</sub> as σ<sub>d</sub> + σ<sub>3</sub>. Then we obtain Φ from the formula: σ<sub>1</sub> = σ<sub>3</sub> * tan<sup>2</sup> (45 + Φ / 2) + 2 * c * tan (45 + Φ / 2). Next we obtain the pore pressure U by substituting σ<sub>1</sub>' = σ<sub>3</sub> + σ<sub>d</sub>' - U and σ<sub>3</sub>' = σ<sub>3</sub> - U in the formula: σ<sub>1</sub>' = σ<sub>3</sub>' * tan<sup>2</sup> (45 + Φ / 2) + 2 * c * tan (45 + Φ / 2)."
+			},
+			"difficulty": "advanced",
+			"correctAnswer": "c"
+		}
+	]
+}

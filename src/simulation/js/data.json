@@ -1,0 +1,12 @@
+data = {
+	"colors": {
+		"white": "#ffffff",
+		"black": "#000000",
+		"blue": "#1ca3ec",
+		"yellow": "#ac9139",
+		"gray": "#a9a9a9",
+		"soilBrown": "#654321",
+		"lightBlue": "#add8ec",
+		"lightGray": "#e5e5e5"
+	}
+}
