@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.6-b/css/style.min.css">
+		<link rel="stylesheet" href="./css/main.css">
+	</head>
+
+	<body class="page">
+		<div class="columns is-centered is-flex">
+			<div class="column mt-2 is-4-desktop is-10-tablet is-10-mobile has-text-centered">
+				<div class="v-instruction-container">
+					<div class="v-instruction-title">Instructions</div>
+					<div id="procedure-message" class="v-instruction-text">
+					</div>
+				</div>
+				<div class="column center-content">
+					<div class="v-select">
+						<select id="menu">
+							<option value="UU">Unconsolidated Undrained</option>
+							<option value="CU">Consolidated Undrained</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="columns is-centered is-variable is-flex is-flex-wrap-wrap workspace">
+			<div id="apparatus" class="column has-text-centered is-2-desktop is-5-tablet is-5-mobile apparatus">
+				<div class="v-datalist-container">
+					<div class="v-datalist-title">Apparatus Menu</div>
+					<a class="v-datalist-row v-bold" id="loader">Axial Loading Device</a>
+					<a class="v-datalist-row v-bold" id="soil">Soil Sample</a>
+					<a class="v-datalist-row v-bold" id="membrane">Membrane</a>
+					<a class="v-datalist-row v-bold" id="chamber">Cylindrical Chamber</a>
+					<a class="v-datalist-row v-bold" id="drainage">Drainage</a>
+				</div>
+			</div>
+
+			<div id="observations" class="column has-text-centered is-2-desktop is-5-tablet is-5-mobile observations">
+				<div class="v-datalist-container">
+					<div class="v-datalist-title">Observations</div>
+					<div class="v-datalist-row v-bold" id="output1"></div>
+					<div class="v-datalist-row v-bold" id="output2"></div>
+					<div class="v-datalist-row v-bold" id="output3"></div>
+					<div class="v-datalist-row v-bold" id="output4"></div>
+					<div class="v-datalist-row">
+						<div class="v-table-wrap">
+							<table id="table" class="table is-bordered is-fullwidth">
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="column has-text-centered is-6-desktop is-10-tablet is-10-mobile simulation">
+				<canvas id="main" class="v-canvas-container"></canvas>
+				<div class="v-datalist-container graph" id='graph'>
+					<div class="v-datalist-title">Graph Observations</div>
+					<div class="plot" id="plot0"></div>
+					<div class="plot" id="plot1"></div>
+					<div class="plot" id="plot2"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="columns is-mobile is-centered is-flex">
+			<div class="column has-text-centered">
+				<button id="restart" class="v-button">Restart</button>
+			</div>
+		</div>
+
+		<script src="https://unpkg.com/mathjs@9.2.0/lib/browser/math.js"></script>
+		<script src="https://cdn.plot.ly/plotly-1.47.4.min.js"></script>
+		<script src="./js/data.json"></script>
+		<script src="./js/main.js"></script>
+	<script src="../assets/js/iframeResize.js"></script></body>
+</html>
